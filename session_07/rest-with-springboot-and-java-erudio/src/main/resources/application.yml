@@ -1,12 +1,12 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cursojavaerudio?useTimezone=true&serverTimezone=UTC
-    username: miguel
+    url: jdbc:mysql://localhost:3306/testemiguel?useTimezone=true&serverTimezone=UTC
+    username: root
     password: 32412294
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
